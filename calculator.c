@@ -62,7 +62,7 @@ int numIn() {
 int signIn(int num) {
 	int func;//function number selected
 	int total = num;//total is num for recursion
-	printf("Input function wanted: 0.getTotal 1.add 2.subtract 3.multiply 4.divide 5.exponent(two values) 6.logs:  "); //prints prompt
+	printf("Input function wanted: 0.getTotal 1.add 2.subtract 3.multiply 4.divide:  "); //prints prompt
 	scanf("%d", &func);//scans for integer
 	//printf("%d", func);
 	switch(func) {
